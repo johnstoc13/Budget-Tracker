@@ -5,7 +5,7 @@
 
 This application allows the user to track their budget and expenses! Inputs for deposits and expenses are tracked continuously, whether the user is online or offline. A great application for keeping track of expenses while on a vacation, or for holiday spending!
 
-Tech Used: Bootstrap, Font Awesome, Animate.css, Javascript, jQuery, Node.js, Express.js, MySQL, Handlebars
+Tech Used: HTML, CSS, Javascript, Node.js, Express.js, MongoDB, Mongoose, Morgan, Heroku
 
 ## Table of Contents
 - [Description](#description)
