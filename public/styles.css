@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
 body {
   font-size: 120%;
   font-family: Arial;
@@ -48,4 +54,12 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+.footer-margin {
+  height: 52px;
+}
+
+.footer-font {
+  font-size: 13px;
 }
