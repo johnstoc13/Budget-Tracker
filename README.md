@@ -37,7 +37,7 @@ Heroku - https://www.heroku.com/
 ## Images
 
 ### Main Page
-<img width="1493" alt="main" src="https://user-images.githubusercontent.com/66090689/96375441-063ddd80-1147-11eb-8013-079888c162d9.png">
+<img width="1261" alt="main" src="https://user-images.githubusercontent.com/66090689/97014635-977ecc80-1518-11eb-9ff6-cc562d85472c.png">
 
 ## License
 
