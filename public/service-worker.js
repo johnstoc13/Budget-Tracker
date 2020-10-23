@@ -14,9 +14,8 @@ const staticFilesToPreCache = [
   "/styles.css"
 ].concat(iconFiles);
 
-
 // install
-self.addEventListener("install", function(evt) {
+self.addEventListener("install", function (evt) {
   evt.waitUntil(
     caches.open(CACHE_NAME).then(cache => {
       console.log("Your files were pre-cached successfully!");
@@ -27,7 +26,7 @@ self.addEventListener("install", function(evt) {
 });
 
 // activate
-self.addEventListener("activate", function(evt) {
+self.addEventListener("activate", function (evt) {
   evt.waitUntil(
     caches.keys().then(keyList => {
       return Promise.all(
@@ -44,8 +43,8 @@ self.addEventListener("activate", function(evt) {
 });
 
 // fetch
-self.addEventListener("fetch", function(evt) {
-  const {url} = evt.request;
+self.addEventListener("fetch", function (evt) {
+  const { url } = evt.request;
   if (evt.request.method !== "GET") {
     evt.respondWith(fetch(evt.request));
     return;
